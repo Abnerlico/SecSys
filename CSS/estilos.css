@@ -50,7 +50,7 @@ body a{
 .top-nav ul li.active a,
 .top-nav ul li a:hover{
 	color: #FFFFFF;
-	background: #E25050;
+	background: #FE9E04;
 }
 .logo a{
 	display:block;
@@ -91,3 +91,28 @@ nav a:hover{
 nav a#pull {
 	display: none;
 }
+/*Styles for screen 600px and lower*/
+@media screen and (max-width: 768px) {
+	nav {
+  		height: auto;
+  		float:none;
+  	}
+  	nav ul {
+  		width: 100%;
+  		display: block;
+  		height: auto;
+  	}
+  	nav li {
+  		width: 100%;
+  		position: relative;
+  	}
+  	nav li a {
+		border-bottom: 1px solid #eee;
+	}
+  	nav a {
+	  	text-align: left;
+	  	width: 100%;
+	  	text-indent: 25px;
+  	}
+}
+
