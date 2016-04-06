@@ -54,7 +54,7 @@
     <div id="casa" class="header">
 		  <div class="contenedor">
 		      <div class="logo">
-			     <a href="#"><img src="Imagenes/Icono.png" title="logo" width="100" /></a>
+			     <a href="#"><img src="Imagenes/logo.png" title="logo" /></a>
              </div>
                 <nav class="top-nav">
 					<ul class="top-nav">
@@ -73,6 +73,69 @@
 					</div>
           </div>
      </div>
+<!--Fin de la clase header-->
+<!--Creamos un Slider Pero antes la animacion con Script-->
+<!---Inicio del Script Slider---->
+			<script src="JS/responsiveslides.min.js"></script>
+			 <script>
+			    // tambien podemos usar esta funcion "$(window).load(function() {"
+			    $(function () {
+			      // Slideshow 4
+			      $("#slider4").responsiveSlides({
+			        auto: true,
+			        pager: true,
+			        nav: true,
+			        speed: 500,
+			        namespace: "callbacks",
+			        before: function () {
+			          $('.events').append("<li>before event fired.</li>");
+			        },
+			        after: function () {
+			          $('.events').append("<li>after event fired.</li>");
+			        }
+			      });
+
+			    });
+			  </script>
+			<!----Final de la animacion Script Slider---->
+            <!-- Slideshow 4 -->
+			    <div  id="top" class="callbacks_container">
+			      <ul class="rslides" id="slider4">
+			        <li>
+			          <img src="Imagenes/slide1.jpg" alt="">
+			          <div class="caption">
+			          	<div class="slide-text-info">
+			          		<span>Equipo de Programadores</span>
+			          		<h1>SECURED SYSTEM Boys</h1>
+			          		<label>Tu mejor eleccion para Programar</label>
+			          	</div>
+			          </div>
+			        </li>
+			        <li>
+			          <img src="Imagenes/slide%202.jpg" alt="Hack Boys">
+			          <div class="caption">
+			          	<div class="slide-text-info">
+			          		<span>Equipo de Programadores</span>
+			          		<h1>SECURED SYSTEM Boys</h1>
+			          		<label>Tu mejor eleccion para Programar</label>
+			          	</div>
+			          </div>
+			        </li>
+			        <li>
+			          <img src="Imagenes/slide3.jpg" alt="">
+			           <div class="caption">
+			           	<div class="slide-text-info">
+			          		<span>Equipo de Programadores</span>
+			          		<h1>SECURED SYSTEM Boys</h1>
+			          		<label>Tu mejor eleccion para Programar</label>
+			          	</div>
+			          </div>
+			        </li>
+			      </ul>
+			    </div>
+			    <div class="clearfix"> </div>
+			<!----- Fin del Slider---->
+
 
 
 </body>
