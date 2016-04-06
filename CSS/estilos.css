@@ -1,0 +1,93 @@
+html, body{
+    font-family: 'Oswald', sans-serif;
+    font-size: 100%;
+    background-color: #FFF;
+}
+body a{
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+/*-----Trabajando con header----*/
+.header{
+	background: #202020;
+	padding: 0.8em 0;
+	position:relative;
+}
+.logo{
+	float:left;
+}
+.logo a{
+	color: #FFF;
+	font-weight: 700;
+	margin-top: 1em;
+}
+.logo a:hover{
+	text-decoration:none;
+}
+/*---Navegador de menu nav*/
+.top-nav ul li a{
+	color: #fff;
+	padding: 0.5em 1em;
+	font-size: 0.96em;
+	font-weight:300;
+	text-align: center;
+	text-transform: uppercase;
+	position: relative;
+	margin: 0 0 0 0.5em;
+}
+.top-nav ul li a span{
+	height: 20px;
+	width: 1px;
+	display: inline-block;
+	background: #C2C2C2;
+	position: absolute;
+	top: 29%;
+	right: 0;
+}
+.top-nav ul li.active a,
+.top-nav ul li a:hover{
+	color: #FFFFFF;
+	background: #E25050;
+}
+.logo a{
+	display:block;
+}
+/* top-nav */
+.top-nav:before,
+.top-nav:after {
+    content: " ";
+    display: table;
+}
+.top-nav:after {
+    clear: both;
+}
+nav {
+	position: relative;
+	float: right;
+}
+nav ul {
+	padding: 0;
+	float: right;
+	margin: 0.75em 0;
+}
+nav li {
+	display: inline;
+	float: left;
+	position:relative;
+}
+nav a {
+	color: #fff;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+}
+nav a:hover{
+	text-decoration:none;
+	color:#00A2C1;
+}
+nav a#pull {
+	display: none;
+}
