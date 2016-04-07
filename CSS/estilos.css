@@ -423,3 +423,56 @@ nav a#pull {
 	font-size:1.2em;
 }
 /*----//slider----*/
+/*-----Inicio de Informacion-----*/
+.features{
+	padding:3em 0;
+}
+.features-head h2{
+	color: #202020;
+	font-size: 2.4em;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 0;
+}
+.features-head h2 span{
+	color:#E25050;
+}
+.features-head p{
+	font-family: 'Droid Serif', serif;
+	color: #BBB;
+	font-size: 1em;
+	font-style: italic;
+	margin-top: 10px;
+}
+.feature-grid h3{
+	color: #202020;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 1.2em;
+}
+.feature-grid h3 span{
+	width: 26px;
+	height: 25px;
+	display: inline-block;
+	background: url(../Imagenes/fea-icons.png) no-repeat 1px 0px;
+	vertical-align: top;
+	margin-right: 0.5em;
+}
+.feature-grid p{
+	color:#777777;
+	font-size:0.85em;
+	margin:0;
+	font-family: 'Open Sans', sans-serif;
+}
+.feature-grid h3 span.fea-icon2{
+	background-position: -25px 0px;
+}
+.feature-grid h3 span.fea-icon3{
+	background-position: -53px 0px;
+}
+.feature-grid h3 span.fea-icon4{
+	background-position: -77px 0px;
+}
+.feature-grids{
+	padding-top:1em;
+}
