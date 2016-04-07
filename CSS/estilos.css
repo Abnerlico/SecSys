@@ -476,3 +476,25 @@ nav a#pull {
 .feature-grids{
 	padding-top:1em;
 }
+/*----start-team----*/
+.team{
+	background:url(../Imagenes/team-bg.jpg) no-repeat 0px 0px;
+	background-size:cover;
+	padding:3em 0;
+}
+.team-head h3{
+	color: #FFF;
+	font-weight: 700;
+	font-size: 1.8em;
+	margin:0;
+}
+.team-head span{
+	height:1px;
+	width:8%;
+	background:#FFF;
+	display:inline-block;
+}
+.team-grids{
+	padding-top:3.5em;
+}
+/* Self Clearing Goodness */
