@@ -476,7 +476,7 @@ nav a#pull {
 .feature-grids{
 	padding-top:1em;
 }
-/*----start-team----*/
+/*----inicio de clas profesores----*/
 .team{
 	background:url(../Imagenes/team-bg.jpg) no-repeat 0px 0px;
 	background-size:cover;
@@ -574,3 +574,83 @@ nav a#pull {
 }
 /*-----------------------------------------------------------------------------------*/
 /*	Animacion
+/*-----------------------------------------------------------------------------------*/
+.b-animate-go{
+	text-decoration:none;
+}
+.b-animate{
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	visibility: hidden;
+	font-size:1.1em;
+	font-weight:700;
+}
+.b-animate img{
+	margin-top: 4%;
+	display: -webkit-inline-box;
+}
+.b-animate span{
+	display:block;
+	font-size:1em;
+	text-transform:uppercase;
+	margin:0.8em 0 0;
+}
+.b-animate button{
+	background: #FFB500;
+	padding: 0.9em 1.8em;
+	color: #3B3B43;
+	text-transform: uppercase;
+	font-size: 0.875em;
+	border: none;
+	border-radius: 0.3em;
+	margin-top: 0.8em;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-ms-transition:0.5s all;
+	-o-transition:0.5s all;
+	outline:none;
+}
+.b-animate button:hover{
+	background:#3B3B43;
+	color:#fff;
+}
+.b-animate label{
+	display:block;
+	font-size:0.875em;
+	margin-top:0.5em;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-ms-transition:0.5s all;
+	-o-transition:0.5s all;
+}
+.b-animate label:hover{
+	color:#FFB500;
+	cursor:pointer;
+}
+/* lt-ie9 */
+.b-animate-go:hover .b-animate{
+	visibility:visible;
+}
+.b-from-left{
+	position: relative;
+	left: -100%;
+	background: rgba(226, 80, 80, 0.71);
+	background-size: 100% 100%;
+	margin: 0;
+	min-height: 282px;
+}
+.b-animate-go:hover .b-from-left{
+	left:0;
+}
+span.default_line {
+	width: 50px;
+	display: block;
+	border-bottom: 2px solid #FFF;
+	position: absolute;
+	bottom:0px;
+}
