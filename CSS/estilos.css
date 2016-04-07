@@ -654,3 +654,65 @@ span.default_line {
 	position: absolute;
 	bottom:0px;
 }
+/* lt-ie9 */
+.b-animate-go:hover .b-animate{
+	visibility:visible;
+}
+.b-from-left{
+	position: relative;
+	left: -100%;
+	background: rgba(226, 80, 80, 0.71);
+	background-size: 100% 100%;
+	margin: 0;
+	min-height: 282px;
+}
+.b-animate-go:hover .b-from-left{
+	left:0;
+}
+span.default_line {
+	width: 50px;
+	display: block;
+	border-bottom: 2px solid #FFF;
+	position: absolute;
+	bottom:0px;
+}
+/*----*/
+.animate-head{
+	padding:0.5em;
+}
+.animate-head-left{
+	text-align:center;
+}
+.animate-head-left h3{
+	font-size: 1.5em;
+	font-weight: 600;
+	margin: 0 auto;
+	text-transform: uppercase;
+	padding-top: 3.2em;
+}
+.animate-head-left span{
+	font-size: 0.875em;
+	text-transform: lowercase;
+	font-weight: normal;
+	font-style: italic;
+	line-height: 1.3em;
+	margin-top: 0;
+}
+.t-member-info{
+	background:#FFF;
+	padding:0.8em;
+}
+.t-member-info h5{
+	color: #202020;
+	font-weight: 700;
+	font-size: 1.1em;
+	text-transform: uppercase;
+	margin: 0;
+}
+.t-member-info span{
+	text-transform:uppercase;
+	color:#BBBBBB;
+}
+.p-img{
+	width:100%;
+}
